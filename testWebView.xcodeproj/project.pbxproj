@@ -14,6 +14,7 @@
 		B85F692F1B3C157600BBE64E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B85F692D1B3C157600BBE64E /* LaunchScreen.storyboard */; };
 		B85F693A1B3C157600BBE64E /* testWebViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85F69391B3C157600BBE64E /* testWebViewTests.swift */; };
 		B85F69451B3C157600BBE64E /* testWebViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B85F69441B3C157600BBE64E /* testWebViewUITests.swift */; };
+		B85F69531B3C202F00BBE64E /* www in Resources */ = {isa = PBXBuildFile; fileRef = B85F69521B3C202F00BBE64E /* www */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		B85F69401B3C157600BBE64E /* testWebViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = testWebViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B85F69441B3C157600BBE64E /* testWebViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testWebViewUITests.swift; sourceTree = "<group>"; };
 		B85F69461B3C157600BBE64E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B85F69521B3C202F00BBE64E /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +99,7 @@
 		B85F69231B3C157600BBE64E /* testWebView */ = {
 			isa = PBXGroup;
 			children = (
+				B85F69521B3C202F00BBE64E /* www */,
 				B85F69241B3C157600BBE64E /* AppDelegate.swift */,
 				B85F69261B3C157600BBE64E /* ViewController.swift */,
 				B85F69281B3C157600BBE64E /* Main.storyboard */,
@@ -228,6 +231,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B85F69531B3C202F00BBE64E /* www in Resources */,
 				B85F692F1B3C157600BBE64E /* LaunchScreen.storyboard in Resources */,
 				B85F692C1B3C157600BBE64E /* Assets.xcassets in Resources */,
 				B85F692A1B3C157600BBE64E /* Main.storyboard in Resources */,

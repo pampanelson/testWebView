@@ -17,8 +17,14 @@ class ViewController: UIViewController,UIWebViewDelegate {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
-        let url = NSURL(string: "http://baidu.com")
-        let request = NSURLRequest(URL: url!)
+//        let url = NSURL(string: "http://baidu.com")
+//        let request = NSURLRequest(URL: url!)
+//        
+
+        let path = NSBundle.mainBundle().pathForResource("index", ofType: "html", inDirectory: "www")
+        let requestURL = NSURL(string: path!)
+        let request = NSURLRequest(URL: requestURL!)
+        
         
         uiwv.loadRequest(request)
         uiwv.delegate = self
