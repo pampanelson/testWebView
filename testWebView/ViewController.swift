@@ -23,6 +23,8 @@ class ViewController: UIViewController,UIWebViewDelegate {
         uiwv.loadRequest(request)
         uiwv.delegate = self
         
+        
+        
     }
 
     
